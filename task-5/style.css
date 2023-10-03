@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    margin-top: 200px;
+
+    box-shadow: 2px 5px 12px 4px rgba(34, 60, 80, 0.2);
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+
+    height: 40px;
+}
+
+.input {
+    width: 48%;
+
+    border: 2px solid #BAD7EC;
+    border-radius: 2px;
+}
+
+.btn-chat {
+    width: 23.5%;
+    
+    border: 2px solid #BAD7EC;
+    border-radius: 2px;
+
+    background-color: #BAD7EC;
+}
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid #BAD7EC;
+    border-radius: 5px;
+    padding: 10px;
+
+    margin-top: 20px;
+}
+
+.output-container__item {
+    width: 60%;
+    margin: 10px 0;
+    border: 2px solid #BAD7EC;
+    border-radius: 5px;
+}
+
+.message {
+    margin: 5px 10px;
+}
+
+.sender {
+    margin-left: auto;
+    text-align: right;
+}
+
+.server {
+    text-align: left;
+}
